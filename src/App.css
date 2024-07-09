@@ -1,0 +1,65 @@
+.App {
+  text-align: center;
+  font-family: Arial, sans-serif;
+  background-color: black;
+  color: white; 
+  
+}
+
+.App-header {
+  background-color: black;
+  height: 50px;
+  padding: 20px;
+  color: white;
+}
+
+.game-board {
+  display: flex;
+  justify-content: center;
+}
+
+.board-row {
+  display: flex;
+}
+
+.square {
+  background: #fff;
+  border: 1px solid #999;
+  font-size: 48px;
+  font-weight: bold;
+  line-height: 64px;
+  height: 64px;
+  margin-right: -1px;
+  margin-top: -1px;
+  padding: 0;
+  text-align: center;
+  width: 64px;
+  border-radius: 50%; /* Make the square a circle */
+}
+
+.square:focus {
+  outline: none;
+}
+
+.status {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: white; /* Text color set to white */
+}
+
+.reset-button {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+.reset-button:hover {
+  background-color: #45a049;
+}
